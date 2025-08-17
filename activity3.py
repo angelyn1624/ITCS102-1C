@@ -1,0 +1,6 @@
+print("Magandang Hapon \nBSIT 1C")
+print("Magandang Hapon \n\tBSIT 1C")
+print("Magandang Hapon \n\t\tBSIT 1C")
+print("The quick brown fox jumps over the lazy dog")
+print("The quick Brown fox \rjumps over the lazy dog")
+print("The \\quick Brown fox jumps over the lazy do\bg")
