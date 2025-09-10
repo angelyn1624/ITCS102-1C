@@ -1,0 +1,29 @@
+print("Welcome to kdrama recommendation!")
+print("choose your preference.")
+
+
+genre = input("pick a genre(comedy,horror,historical): ").lower()
+era = input("pick an era (2000s,2010s,2020s): ").lower()
+duration = input("duration (short,medium,long): ").lower()
+
+if genre == 'comedy'and era == '2000s': duration == 'medium':
+	print("Recommendation:full house(2004) ")
+elif genre == 'comedy' and era == '2010s': duration =='long':
+	print("Recommendation:Secret garden(2010)")
+elif genre == 'comedy' and era =="2020s": duration == 'medium':
+	print("Recommendation:my roommate is a gumiho(2021)")
+elif genre == 'horror' and era =="2000s": duration == 'long':
+	print("Recommendation:scent of a man(2000s)")
+elif genre == 'horror' and era =="2010s": duration =='short':
+	print("Recommendation:ghost detective(2010s)")
+elif genre == 'horror' and era =="2020s": duration == 'short':
+	print("Recommendation:kingdom S2(2020)")
+elif genre == 'historical' and era =="2000s": duration == 'medium':
+	print("Recommendation:chunyang(2000)")
+elif genre == 'historical' and era =="2010s": duration =='short'
+	print("Recommendation:kangchi(2011)")
+elif genre == 'historical' and era =="2020s":duration == 'long'
+	print("Recommendation:rooftopprince(2021)")
+else:
+	print("no kdrama found in that era.")
+	
