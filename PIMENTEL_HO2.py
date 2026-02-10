@@ -3,7 +3,7 @@ import tkinter as tk
 window = tk.Tk()
 window.title("Angelyn's Profile")
 window.geometry("600x600")
-window.resizable(True,True)
+window.resizable(False,True)
 window.config(bg="pink")
 
 label=tk.Label(window, text ="Student Profile", font=("Arial", 32,"bold"), fg="black", bg="pink", anchor="s")
